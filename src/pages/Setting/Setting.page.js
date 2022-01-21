@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import * as Component from '../../Component'
 
 import style from './Setting.module.scss';
