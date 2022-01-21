@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+
 import Home from '@mui/icons-material/Home'
 import AccountCircle from '@mui/icons-material/AccountCircle'
 import Settings from '@mui/icons-material/Settings'
@@ -11,13 +13,13 @@ const SideBar = () => {
             <div className={style.container}> 
                 <ul> 
                     <li>
-                        <Home />
+                        <Link to="/home"> <Home /> </Link>
                     </li>
                     <li>
-                        <AccountCircle />
+                        <Link to="/profile"> <AccountCircle /> </Link>
                     </li>
                     <li>
-                        <Settings />
+                        <Link to="/setting"> <Settings /> </Link>
                     </li>
                 </ul>
             </div>
